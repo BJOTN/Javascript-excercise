@@ -3,5 +3,6 @@ const person = {
   lastName: 'Rossi',
   age: 25
 };
-let personValue = Object.keys(person)
-console.log(personValue)
+for (let key of Object.keys(person)) { 
+  console.log(`${key} ${person[key]}`); 
+}
