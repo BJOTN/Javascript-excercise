@@ -20,13 +20,10 @@
 </html>
 
 <script>
-  const allInputText = document.querySelectorAll('.form-input[type=text]');
+  const allInputText = document.querySelectorAll(".form-input[type=text]");
 
-allInputText.forEach((textInput) =>{
-  textInput.addEventListener('change',()=>{
-    const inputText =textInput.value;
-    console.log(inputText)
-  })
-})
-  
+  allInputText.forEach((textInput) => {
+    const inputText = textInput.value;
+    console.log(inputText);
+  });
 </script>

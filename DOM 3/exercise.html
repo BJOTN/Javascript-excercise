@@ -22,10 +22,9 @@
 <script>
  const allinput = document.querySelectorAll('.form-input')
 
- allinput.forEach((input) => 
- input.addEventListener('change',()=>{
+ allinput.forEach((input) => {
   const inputValue = input.value;
   const label = input.previousElementSibling.textContent
   console.log(`${label}${inputValue}`)
- }))
+ })
 </script>
